@@ -1,0 +1,10 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Andrii Radyk <ander.ender@gmail.com>"]
+
+[dependencies]
+env_logger = "*"
+rusoto_core = "0.33"
+rusoto_ec2 = "0.33"
+rusoto_sts = "0.33"
